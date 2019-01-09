@@ -113,7 +113,7 @@ function createMap(earthquakes){
 
     
     // Create a layer control containing our baseMaps
-    // Be sure to add an overlay Layer containing the earthquake GeoJSON
+    // add an overlay Layer containing the earthquake GeoJSON
     L.control.layers(baseMaps,overlayMaps,quakeLayer, {
       collapsed: false
     }).addTo(myMap);
